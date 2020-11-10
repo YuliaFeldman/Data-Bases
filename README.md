@@ -12,4 +12,4 @@ Project 3 is composed of 4 main methods:
 
 3) SELECT method that receives as input table RS(A,B,C,D,E) and a condition, and outputs only tuples that satisfy the condition.
 
-4) ### joinAndSelectEfficiently ### method that
+4) joinAndSelectEfficiently method that receives tables R(A,B,C) and S(A,D,E), sorts them and joins them, but this time the selection condition is checked in the first reading of the input files and not after the join (this is a lot more efficient..). 
